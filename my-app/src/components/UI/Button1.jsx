@@ -1,10 +1,10 @@
 import React from 'react';
 import classes from './Button1.module.css'
 
-function Button1({children, ...props}) {
+function Button1({children, status, ...props}) {
   return (
-    <button className={classes.btn1} {...props} >
-        {children}
+    <button disabled = {status} className={classes.btn1} {...props} >
+        {children} 
     </button>
   )
 }

@@ -5,11 +5,17 @@
     background: transparent;
     border: 3px solid teal;
     cursor: pointer;
-    /* width: 100px;
-    height: 50px; */
+    margin: 10px;
 }
 
 .btn1:hover {
     background-color: teal;
     color: white;
+}
+
+.btn1:disabled {
+    background: gray;
+    color: black;
+    border: 1px solid black;
+    cursor: auto;
 }
